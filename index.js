@@ -16,7 +16,7 @@ const { ExpressAdapter } = require("@bull-board/express");
     },
   };
 
-  const queuesList = ["schedule_queue"];
+  const queuesList = ["announcements"];
 
   const serverAdapter = new ExpressAdapter();
   serverAdapter.setBasePath("/admin/queues");
